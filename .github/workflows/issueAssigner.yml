@@ -9,9 +9,8 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       - name: 'Auto-Assign Issue'
-        uses: pozil/auto-assign-issue@v1.11.0
+        uses: pozil/auto-assign-issue@v1
         with: 
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
           assignees: thelo67
         
         
